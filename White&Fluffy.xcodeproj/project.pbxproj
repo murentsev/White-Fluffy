@@ -17,7 +17,6 @@
 		B2CCB1EF2506922A00E20E4B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B2CCB1EE2506922A00E20E4B /* Alamofire */; };
 		B2CCB1F12506926E00E20E4B /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB1F02506926E00E20E4B /* WeatherResponse.swift */; };
 		B2CCB1F32506927D00E20E4B /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB1F22506927D00E20E4B /* WeatherService.swift */; };
-		B2CCB1F52506995D00E20E4B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB1F42506995D00E20E4B /* Weather.swift */; };
 		B2CCB2002506C8BD00E20E4B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB1FF2506C8BD00E20E4B /* MapViewController.swift */; };
 		B2CCB2052506F8B300E20E4B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B2CCB2042506F8B300E20E4B /* RealmSwift */; };
 		B2CCB20D25072DD100E20E4B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CCB20C25072DD100E20E4B /* WebKit.framework */; };
@@ -38,7 +37,6 @@
 		B2CCB1EB25068ED000E20E4B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		B2CCB1F02506926E00E20E4B /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		B2CCB1F22506927D00E20E4B /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
-		B2CCB1F42506995D00E20E4B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		B2CCB1FF2506C8BD00E20E4B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B2CCB20C25072DD100E20E4B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		B2CCB2142507510400E20E4B /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherTableViewController.swift; path = "White&Fluffy/Controllers/WeatherTableViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				B2CCB1E725068ADC00E20E4B /* City.swift */,
-				B2CCB1F42506995D00E20E4B /* Weather.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,7 +240,6 @@
 				B2CCB1F32506927D00E20E4B /* WeatherService.swift in Sources */,
 				B2CCB1D0250686B800E20E4B /* AppDelegate.swift in Sources */,
 				B2CCB2152507510400E20E4B /* WeatherTableViewController.swift in Sources */,
-				B2CCB1F52506995D00E20E4B /* Weather.swift in Sources */,
 				B2CCB2002506C8BD00E20E4B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
