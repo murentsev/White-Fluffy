@@ -8,7 +8,6 @@
 
 import UIKit
 import RealmSwift
-import Kingfisher
 
 class TableViewController: UITableViewController, UISearchBarDelegate {
     
